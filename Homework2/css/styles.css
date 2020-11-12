@@ -1,0 +1,61 @@
+body{font-family: 'Fjalla One', sans-serif;}
+
+a {
+	text-decoration: none;
+}
+
+#smile {
+position: fixed;
+right: 0px;
+background: 0, 50, 50, 0,5;
+margin: 0,5;
+
+}
+
+h1,h2{
+	color: blue
+}
+
+.products {
+ width:200px;
+ height: 133.44px;
+ border: 1px black solid;
+ border-radius: 5px;
+ 
+}
+
+.scale {
+	transition: 1s;
+}
+
+.scale:hover {
+
+	transform: scale(2);
+}
+
+
+
+
+
+body {
+	background-color: #f1e0c5;
+	background-image: -webkit-repeating-radial-gradient(circle, #e6d3b4, #e0d0b8 50%, #e0d0b8 100%);
+background-image: repeating-radial-gradient(circle, #ecd8b9, #e0d0b8 50%, #e0d0b8 100%);
+background-size: 10px 10px;
+}
+
+#footer {
+	
+	color: #171ee5;
+position: fixed;
+right: 0; bottom: 0;
+padding: 10px;
+background: 0, 50, 50, 0.5;
+width: 100%;
+text-align: right;
+}
+
+li{
+
+	padding: 10px 0px 0px 20px
+}
